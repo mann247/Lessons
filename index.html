@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form 6-19-2025</title>
+</head> 
+<body>
+    <div id="container">
+    <header class="header"> 
+        <h1 class="Welcome">Welcome!</h1>
+        <img src="images/elAmigoLogo.png" alt="el amigo logo"/>
+    </header>
+
+    <section id="content" class="content-block">
+        <h1>The Best Tacos in Charlotte</h1>
+        <p> We have the best birria tacos in town!</p>
+    </section>
+
+    <section id="reserve" class="content-block">
+        <h2>Make a Reservation.</h2>
+        <p>Reserve your spot now!</p>
+        <form>
+            <!--Name-->
+            <label for="user_name">Your Name</label> <!--Semantic solution-->
+            <input type="text" id="user_name" placeholder="Huey Freeman"/>
+
+            <!--Email-->
+            <label for="user_email">Your Email</label>
+            <input type="text" id="user_email" placeholder="hfreeman@email.com"/>
+
+            <!--Reserve-->
+            <input type="submit" value="reserve"/> <!--copyright symbol-->
+        </form>
+    </section>
+
+    <footer id="footer">
+        <p>&copy; 2025 El Amigo</p>
+    </footer>
+</div>
+</body>
+</html>
+
